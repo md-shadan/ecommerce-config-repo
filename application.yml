@@ -1,5 +1,8 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include: "*"
+
+demo:
+  message: Hello Config Server
