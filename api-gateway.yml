@@ -9,10 +9,6 @@ spring:
           filters:
             - StripPrefix=1
 
-spring:
-  cloud:
-    gateway:
-      routes:
         - id: product-service
           uri: lb://product-service
           predicates:
